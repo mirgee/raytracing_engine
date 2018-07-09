@@ -14,10 +14,10 @@ public class Textures {
 
     public ArrayList<Textures> textures;
 
-    public static Textures wood = new Textures("res/wood.png", 64);
-    public static Textures brick = new Textures("res/redbrick.png", 64);
-    public static Textures bluestone = new Textures("res/bluestone.png", 64);
-    public static Textures stone = new Textures("res/greystone.png", 64);
+    public static Textures wood = new Textures("../res/wood.png", 64);
+    public static Textures brick = new Textures("../res/redbrick.png", 64);
+    public static Textures bluestone = new Textures("../res/bluestone.png", 64);
+    public static Textures stone = new Textures("../res/greystone.png", 64);
 
     public int[] pixels;
     private String loc;
